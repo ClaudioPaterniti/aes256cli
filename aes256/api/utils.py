@@ -8,7 +8,7 @@ BLOCK_SIZE = 128
 def derive_key(key: str, salt: bytes) -> bytes:
     hkdf = HKDF(
         algorithm=hashes.SHA256(),
-        length=32,
+        length=LENGTH,
         salt=salt,
         info= None,
         backend= None
