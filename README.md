@@ -1,7 +1,6 @@
 ## AES256 cli
 
-This is a simple command line tool to easily encrypt and decrypt small files.  
-It uses _criptography_ (https://cryptography.io) for cryptographic primitives.
+This is a simple command line wrapper to _criptography_ (https://cryptography.io) to easily encrypt and decrypt small files with AES256.
 
 ### Example of use
 
